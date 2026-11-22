@@ -1,4 +1,4 @@
-# 家長飛盤惡補指南
+# 家長飛盤速成指南
 
 給家長的飛盤入門網站：飛盤比賽是什麼、2026 國內賽事、飛盤與升學、飛盤對孩子的身心好處。
 
@@ -17,3 +17,5 @@
 | images/frisbee.jpg | Petey21 | 公眾領域 | https://commons.wikimedia.org/wiki/File:Frisbee_090719.jpg |
 
 圖片皆縮小為 960px 寬；CC BY-SA 圖片依原授權條款分享。
+
+`og-image.png`（分享縮圖）右半部使用 Ed Yourdon 的照片（CC BY-SA 2.0），整張縮圖同樣以 CC BY-SA 2.0 分享。
