@@ -87,6 +87,17 @@ header.site p.today { opacity: 1; }
 #home-next hr { border: 0; border-top: 1px solid rgba(255,255,255,.3); margin: 10px 0; width: 100%; }
 .next-banner .next-link { color: #fff; margin-top: 6px; font-weight: 700; align-self: flex-start; }
 
+/* 熱身與訓練頁 */
+.toc { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; }
+.toc a { text-decoration: none; white-space: nowrap; }
+.toc a:hover { text-decoration: underline; }
+h2[id] { scroll-margin-top: 12px; }
+.checklist { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 6px 16px; }
+.checklist label { display: flex; gap: 10px; align-items: center; padding: 6px 4px; cursor: pointer; }
+.checklist input { width: 20px; height: 20px; accent-color: var(--accent); flex: 0 0 auto; }
+.checklist input:checked + * , .checklist label:has(input:checked) { color: var(--muted); text-decoration: line-through; }
+p.muted { font-size: .88rem; }
+
 /* 圖片 */
 figure { margin: 16px 0; }
 figure img { width: 100%; height: auto; display: block; border-radius: 12px; border: 1px solid var(--border); }
