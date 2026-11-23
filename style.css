@@ -73,6 +73,20 @@ th { background: var(--accent-soft); white-space: nowrap; }
 td:first-child { white-space: nowrap; }
 tr.hl td { background: var(--warn-soft); font-weight: 700; }
 .tag { display: inline-block; font-size: .8rem; padding: 0 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+/* 頁首今日日期 */
+.today { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; margin: 0 0 12px; font-size: .9rem; opacity: 1; }
+.today:empty { display: none; }
+.today span { white-space: nowrap; }
+.today-greet { background: rgba(255,255,255,.18); padding: 1px 10px; border-radius: 999px; font-weight: 700; }
+.today-roc { opacity: .85; }
+header.site p.today { opacity: 1; }
+
+/* 首頁下一場比賽 */
+#home-next .countdown { font-size: 1.05rem; margin-top: 2px; }
+#home-next .countdown b { font-size: 1.6rem; color: #fbbf24; }
+#home-next hr { border: 0; border-top: 1px solid rgba(255,255,255,.3); margin: 10px 0; width: 100%; }
+.next-banner .next-link { color: #fff; margin-top: 6px; font-weight: 700; align-self: flex-start; }
+
 /* 圖片 */
 figure { margin: 16px 0; }
 figure img { width: 100%; height: auto; display: block; border-radius: 12px; border: 1px solid var(--border); }
